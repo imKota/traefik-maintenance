@@ -2,7 +2,7 @@ displayName: Maintenance Warden
 type: middleware
 iconPath: .assets/icon.png
 
-import: github.com/TechAlchemistry/traefik-maintenance-warden
+import: github.com/imKota/traefik-maintenance
 
 summary: A middleware that serves a maintenance page unless a bypass header is present or path matches a bypass pattern.
 
