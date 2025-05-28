@@ -1,4 +1,4 @@
-package traefik_maintenance
+package maintenance
 
 import (
 	"bytes"
