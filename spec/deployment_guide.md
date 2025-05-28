@@ -13,7 +13,7 @@ This guide provides detailed instructions for deploying the Maintenance Warden p
 experimental:
   plugins:
     maintenance-warden:
-      moduleName: "github.com/TechAlchemistry/traefik-maintenance-warden"
+      moduleName: "github.com/imKota/traefik-maintenance"
       version: "v1.0.0"
 ```
 
@@ -32,7 +32,7 @@ If using the Traefik Helm chart:
 experimental:
   plugins:
     maintenance-warden:
-      moduleName: "github.com/TechAlchemistry/traefik-maintenance-warden"
+      moduleName: "github.com/imKota/traefik-maintenance"
       version: "v1.0.0"
 ```
 
