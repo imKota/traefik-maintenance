@@ -1,6 +1,6 @@
 // Package maintenance provides a Traefik plugin to redirect traffic to a maintenance page
 // while allowing requests with a specific header to bypass the redirection
-package maintenance
+package traefik_maintenance
 
 import (
 	"context"
