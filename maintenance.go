@@ -125,7 +125,7 @@ func New(ctx context.Context, next http.Handler, config *Config, name string) (h
 	}
 
 	// Create logger
-	logger := log.New(os.Stdout, "[maintenance-warden] ", log.LstdFlags)
+	logger := log.New(os.Stdout, "[maintenance] ", log.LstdFlags)
 
 	// Create the middleware instance
 	m := &MaintenanceBypass{
