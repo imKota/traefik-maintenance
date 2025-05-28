@@ -1,9 +1,9 @@
 # Traefik Maintenance Warden 🛠️
 
-![GitHub release](https://img.shields.io/github/release/enzo24ofreopgh/traefik-maintenance.svg)
-![GitHub issues](https://img.shields.io/github/issues/enzo24ofreopgh/traefik-maintenance.svg)
-![GitHub forks](https://img.shields.io/github/forks/enzo24ofreopgh/traefik-maintenance.svg)
-![GitHub stars](https://img.shields.io/github/stars/enzo24ofreopgh/traefik-maintenance.svg)
+![GitHub release](https://img.shields.io/github/release/imKota/traefik-maintenance.svg)
+![GitHub issues](https://img.shields.io/github/issues/imKota/traefik-maintenance.svg)
+![GitHub forks](https://img.shields.io/github/forks/imKota/traefik-maintenance.svg)
+![GitHub stars](https://img.shields.io/github/stars/imKota/traefik-maintenance.svg)
 
 A flexible maintenance mode middleware plugin for Traefik that serves maintenance pages while allowing authorized bypass. Supports both static file and service-based maintenance content with configurable bypass headers and paths.
 
