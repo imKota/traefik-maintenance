@@ -1,4 +1,4 @@
-package traefik_maintenance
+package traefik_maintenance_warden
 
 import (
 	"bytes"
